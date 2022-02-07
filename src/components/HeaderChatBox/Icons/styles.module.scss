@@ -1,0 +1,23 @@
+.icons {
+  width: 30%;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 13px;
+  img {
+    cursor: pointer;
+  }
+  p {
+    display: flex;
+    font-size: 13px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    img {
+      margin-left: 5px;
+    }
+  }
+
+}

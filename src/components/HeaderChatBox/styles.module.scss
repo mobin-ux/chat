@@ -1,0 +1,11 @@
+.header {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px 20px 0 0;
+  padding: 0 15px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  &.hide {
+    border-radius: 20px;
+  }
+}

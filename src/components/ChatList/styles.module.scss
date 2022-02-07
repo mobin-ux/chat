@@ -1,0 +1,13 @@
+.list {
+  padding: 10px;
+  padding-top: 0;
+  overflow-y: scroll;
+  transition: all 0.2s ease-in;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &.large {
+    height: 80.5%;
+  }
+}

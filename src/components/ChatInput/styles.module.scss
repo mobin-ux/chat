@@ -1,0 +1,40 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.33);
+  padding: 12px 20px;
+  border-radius: 0 0 20px 20px;
+  height: 5.5%;
+  input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 13px;
+    line-height: 16px;
+    flex-grow: 2;
+  }
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.33);
+  }
+  img {
+    cursor: pointer;
+  }
+  .emoji {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    right: 0;
+    background-color: white;
+    img {
+      margin: 5px;
+    }
+    aside {
+      box-shadow: unset;
+    }
+    &.large {
+      top: 27%;
+    }
+  }
+}

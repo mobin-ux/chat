@@ -1,0 +1,48 @@
+.item {
+  display: flex;
+  align-items: center;
+  &.mine {
+    place-self: flex-end;
+    justify-content: flex-end;
+    .chat {
+      color: white;
+      background: #212121;
+      border-radius: 20px 20px 0px 20px;
+    }
+    p {
+      margin-right: 10px;
+      margin-left:0px;
+    }
+  }
+  & > p {
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .chat {
+    background: #ffffff;
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 20px 20px 20px 0px;
+    max-width: 70%;
+    & > div {
+      display: flex;
+      margin-bottom: 6px;
+      img:first-child {
+        margin-right: 5px;
+      }
+      p:last-child {
+        margin-left: 5px;
+        color: #23b838;
+        font-size: 13px;
+        line-height: 14px;
+      }
+      p:nth-child(2) {
+        color: #999999;
+        font-size: 13px;
+        line-height: 14px;
+      }
+    }
+  }
+}
